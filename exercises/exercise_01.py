@@ -1,3 +1,9 @@
+"""Water state exercise.
+
+Ask for a temperature and print whether water is solid, liquid or gas at that
+temperature.
+"""
+
 temp = float(input("Please enter the temperature: "))
 
 if temp < 0:

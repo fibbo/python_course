@@ -1,3 +1,9 @@
+"""Word length exercise.
+
+Print all programming languages that are at least as long as the given minimum
+length and count how many there are.
+"""
+
 programming_languages = [
     "Python",
     "Java",

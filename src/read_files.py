@@ -1,3 +1,9 @@
+"""Read data from a text file line by line.
+
+Each line of data.txt holds a timestamp and a value separated by whitespace.
+The lines are split and the parts are stored in two separate lists.
+"""
+
 from pathlib import Path
 
 # file_path = Path("words.txt")

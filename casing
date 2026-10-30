@@ -1,0 +1,4 @@
+PascalCase => LengthInCm
+camelCase => lengthInCm
+snake_case => length_in_cm
+kebab-case => length-in-cm

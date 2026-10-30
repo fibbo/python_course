@@ -1,3 +1,9 @@
+"""Lists are ordered collections of items that can be changed.
+
+You can access parts of a list with slicing and add items with append().
+Tuples are similar to lists, but they cannot be changed after they are created.
+"""
+
 # Do not run this line!
 # print(list(range(1000000000000)))
 

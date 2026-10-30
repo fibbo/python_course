@@ -1,3 +1,9 @@
+"""Modules let you use code from other files and from the standard library.
+
+You can import a whole module with "import math" or only single names from it
+with "from math import sin".
+"""
+
 import math
 from math import sin
 # from lists import queue
