@@ -1,10 +1,9 @@
 """In this file we will create a dictionary from a file.
-The file will contain a list of words in English and their corresponding
-translations in German. The file will be in the following format:
-{
-    "one": "eins",
-    "two": "zwei",
-}
+
+The file contains English words and their German translations as JSON, written by
+serialize_dictionary.py. It looks like this:
+
+{"one": "eins", "two": "zwei"}
 """
 
 import json
@@ -16,10 +15,7 @@ dictionary = {}
 print(dictionary)
 
 dictionary_file = Path("dictionary.txt")
-# dictionary = json.loads(dictionary_file.read_text())
-with dictionary_file.open("r") as file:
-    for line in file:
-        dictionary = json.loads(line)
+dictionary = json.loads(dictionary_file.read_text())
 
 
 for eng, de in dictionary.items():

@@ -10,4 +10,4 @@ while True:
         break
     total += float(value)
 
-    print(f"The total sum is {total}")
+print(f"The total sum is {total}")

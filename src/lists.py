@@ -7,10 +7,11 @@ Tuples are similar to lists, but they cannot be changed after they are created.
 # Do not run this line!
 # print(list(range(1000000000000)))
 
-
 queue = ["a.pdf", "b.pdf", "c.pdf", "d.pdf", "e.pdf", "f.pdf"]
 
 
+# The code below will only run if this file is executed directly, not if it is imported as a module.
+# You can import this file in another file and use the queue variable and the code below will not run.
 if __name__ == "__main__":
     print(queue[::3])
 

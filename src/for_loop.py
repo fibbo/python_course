@@ -7,5 +7,6 @@ numbers = list(range(1, 1000, 3))
 
 
 for n in numbers:
+    # In each iteration of the loop, n will be assigned the next value in the numbers list.
     if n % 2 == 1:
         print(n)

@@ -25,8 +25,8 @@ def fizz_buzz(numbers):
 
 def fizz_buzz_2(numbers):
     index = 0
-    n = numbers[index]
     while index < len(numbers):
+        n = numbers[index]
         if n % 15 == 0:
             print("FizzBuzz")
         elif n % 3 == 0:
@@ -35,6 +35,8 @@ def fizz_buzz_2(numbers):
             print("Buzz")
         else:
             print(n)
+
+        index += 1
 
 
 numbers = list(range(1, 101))

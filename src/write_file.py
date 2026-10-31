@@ -6,8 +6,7 @@ instead of overwriting it.
 
 from pathlib import Path
 
-
 file_path = Path("note_book.log")
 
 with file_path.open("a") as file:
-    file.writelines("Test")
+    file.write("Test\n")

@@ -15,4 +15,4 @@ print(my_dict_as_string)
 dictionary_file = Path("dictionary.txt")
 
 with dictionary_file.open("w") as file:
-    file.writelines(my_dict_as_string)
+    file.write(my_dict_as_string)

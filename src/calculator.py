@@ -10,8 +10,8 @@ b = int(input("Please enter the second number "))
 print("The result of " + str(a) + " + " + str(b) + " is: " + str(a + b))
 
 
-""" Below an example of how the f-string can improve the readability of the code and avoid the need for type conversion.
-"""
+# Below an example of how the f-string can improve the readability of the code
+# and avoid the need for type conversion.
 a = 20
 b = 10
 res = a + b

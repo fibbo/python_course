@@ -8,12 +8,16 @@ x = int(input("Enter x: "))
 y = int(input("Enter y: "))
 z = int(input("Enter z: "))
 
-if x <= y <= z:
+if x <= y and y <= z:
     print(True)
+else:
+    print(False)
 
 # Or even more elegant with a chained comparison:
 if x <= y <= z:
     print(True)
+else:
+    print(False)
 
 # And if the result is the boolean value, you can just print the result of the comparison:
 print(x <= y <= z)

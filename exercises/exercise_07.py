@@ -20,7 +20,7 @@ def average_price(prices):
 def print_summary(prices):
     total = total_price(prices)
     average = average_price(prices)
-    print(f"{len(prices)} items, total: {total}, average: {average:.2f}")
+    print(f"{len(prices)} items, total {total:.2f}, average {average:.2f}")
 
 
 prices = [20.4, 4.5, 7]
